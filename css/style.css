@@ -110,6 +110,25 @@ nav ul li a:hover{
     margin: 40px;
     
 }
+
+.contenedorqui{
+    background-color: rgb(213, 211, 211);
+    padding: 5px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 500px;
+}
+
+.box5{
+    border: 7px solid black;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+    width: 150px;
+    
+}
 .sidebar{
     flex: 1;
     background-color: #e6f0ff;
