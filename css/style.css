@@ -13,14 +13,14 @@ body{
 }
 
 header{
-    background-color: #004080;
+    background-color: #0a0f14;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 nav{
-    background-color: #0066cc;
+    background-color: #7c7c7c;
 
 }
 
@@ -45,20 +45,75 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: #004080;
+    background-color: #0a0f14;
 }
 
 .contenedor-principal{
+    background-color: #3c3e5b17;
+    padding: 5px;
+    border-radius: 3px;
     display: flex;
-    max-width: 1200px;
-    margin: 20px auto;
-    gap: 20px;
+    
 }
 
+.box{
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.contenedoresecu{
+    background-color: rgb(213, 211, 211);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2{
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+    
+}
+
+.contenedorter{
+    background-color: rgb(213, 211, 211);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box3{
+    border: 7px solid black;
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+    
+}
+
+.contenedorcu{
+    background-color: rgb(213, 211, 211);
+    padding: 5px;
+    border-radius: 1px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.box4{
+    border: 7px solid black;
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+    
+}
 .sidebar{
     flex: 1;
     background-color: #e6f0ff;
-    padding: 15px;
+        padding: 15px;
     border-radius: 5px;
 
 
@@ -74,7 +129,7 @@ nav ul li a:hover{
 }
 
 footer{
-    background-color: #004080;
+    background-color: #7c7c7c;
     color: white;
     text-align: center;
     padding: 15px 10px;
